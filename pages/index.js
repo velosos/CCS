@@ -18,33 +18,25 @@ export default function Index() {
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 We specialize in ensuring the security, transparency, and regulatory adherence of cryptocurrency transactions and businesses. Explore our comprehensive solutions to navigate the evolving landscape of digital assets with confidence.              </p>
-              <div className="mt-12">
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                >
-                  Get started
-                </a>
-                <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                  target="_blank"
-                >
-                  Github Star
-                </a>
-              </div>
+
             </div>
           </div>
         </div>
-        <img
-          className="absolute top-4 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          src="/img/coins2.png"
-          alt="..."
-        />
+        <div className="lg:hidden mt-9">
+          <img
+            src="/img/coins2.png"
+            alt="..."
+          />
+        </div>
+        <div className="hidden sm:block absolute top-4 b-auto right-0 h-4 w-3 max-h-860-px">
+          <img
+            src="/img/coins2.png"
+            alt="..."
+          />
+        </div>
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="mt-48 md:mt-4 pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{transform: "translateZ(0)"}}
@@ -64,7 +56,7 @@ export default function Index() {
             ></polygon>
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto mb-10">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
@@ -227,9 +219,7 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Our team</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Notus NextJS is a completly new product built using our past
-              experience in web templates. Take the examples we made for you and
-              start playing with them.
+              Our technology team is dedicated and innovative professionals who are passionate about pushing the boundaries of what's possible.
             </p>
           </div>
         </div>
@@ -255,6 +245,28 @@ export default function Index() {
                   <h3 className="text-white text-xl font-semibold pb-4 text-center">
                     CEO and Software specialist
                   </h3>
+                  <div className="flex flex-wrap text-center lg:text-center">
+                    <div className="w-full lg:w-4/10 px-4">
+                      <div className="mt-6 lg:mb-0 mb-6">
+                        <a href="https://www.linkedin.com/in/natali-seabra/" target="_blank">
+                          <button
+                            className="bg-white text-blueGray-800 shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button"
+                          >
+                            <i className="fab fa-linkedin text-2xl"></i>
+                          </button>
+                        </a>
+                        <a href="https://github.com/nataliseabra" target="_blank">
+                          <button
+                            className="bg-white text-blueGray-800 shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button"
+                          >
+                            <i className="fab fa-github text-2xl"></i>
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
@@ -273,37 +285,27 @@ export default function Index() {
                     Sofware developer
                   </h3>
 
-                  <div className="flex flex-wrap text-center lg:text-left">
-                    <div className="w-full lg:w-6/12 px-4">
+                  <div className="flex flex-wrap text-center lg:text-center">
+                    <div className="w-full lg:w-4/10 px-4">
                       <div className="mt-6 lg:mb-0 mb-6">
-                        <button
-                          className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                          type="button"
-                        >
-                          <i className="fab fa-twitter"></i>
-                        </button>
-                        <button
-                          className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                          type="button"
-                        >
-                          <i className="fab fa-facebook-square"></i>
-                        </button>
-                        <button
-                          className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                          type="button"
-                        >
-                          <i className="fab fa-dribbble"></i>
-                        </button>
-                        <button
-                          className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                          type="button"
-                        >
-                          <i className="fab fa-github"></i>
-                        </button>
+                        <a href="https://www.linkedin.com/in/othiagonascimento/" target="_blank">
+                          <button
+                            className="bg-white text-blueGray-800 shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button"
+                            href="https://google.com"
+                          >
+                            <i className="fab fa-linkedin text-2xl"></i>
+                          </button>
+                        </a>
+                        <a href="https://github.com/velosos" target="_blank">
+                          <button
+                            className="bg-white text-blueGray-800 shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button"
+                          >
+                            <i className="fab fa-github text-2xl"></i>
+                          </button>
+                        </a>
                       </div>
-
-
-
                     </div>
                   </div>
 
@@ -345,34 +347,24 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
-              <p className="text-4xl text-center">
-                <span role="img" aria-label="love">
-                  😍
+              <p className="text-4xl text-center mb-5">
+                <span role="img" aria-label="cripto">
+                  <i className="text-blueGray  fa-coins text-4xl leading-lg mr-2" />{" "}
                 </span>
               </p>
               <h3 className="font-semibold text-3xl">
-                Do you love this Starter Kit?
+                Let's keep in touch!
               </h3>
               <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Cause if you do, it can be yours now. Hit the buttons below to
-                navigate to get the Free version for your next project. Build a
-                new web app or give an old project a new look!
+                Connect with us and learn more about our services.
+                Share your thoughts, ask questions, or offer your expertise.
+
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="sm:ml-1 text-orange-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
-                  Get started
-                </a>
-                <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                >
-                  <i className="fab fa-github text-lg mr-1"></i>
-                  <span>Help With a Star</span>
+                  <span>cryptocompliancesystem@gmail.com</span>
                 </a>
               </div>
               <div className="text-center mt-16"></div>
