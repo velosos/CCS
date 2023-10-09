@@ -24,6 +24,14 @@ export default function Footer() {
           </svg>
         </div>
         <div className="container mx-auto px-4">
+          <div className="flex flex-wrap text-center lg:text-left">
+            <div className="w-full lg:w-6/12 px-4">
+              <h4 className="text-3xl font-semibold">
+                <i className="text-orange-500  fas fa-envelope text-4xl leading-lg mr-2 mb-6 pb-2" />{" "}
+                Let's keep in touch!</h4>
+
+            </div>
+          </div>
           <hr className="my-6 border-blueGray-300" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">

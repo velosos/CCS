@@ -268,49 +268,6 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-
-                <div className="w-full lg:w-4/12 px-4">
-
-                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                    <img
-                      alt="..."
-                      className="align-middle border-none max-w-full h-auto rounded-lg"
-                      src="https://avatars.githubusercontent.com/u/4336605?v=4"
-                    />
-                  </div>
-                  <h5 className="text-white text-3xl font-semibold pb-4 text-center">
-                    Thiago Veloso
-                  </h5>
-                  <h3 className="text-white text-xl font-semibold pb-4 text-center">
-                    Sofware developer
-                  </h3>
-
-                  <div className="flex flex-wrap text-center lg:text-center">
-                    <div className="w-full lg:w-4/10 px-4">
-                      <div className="mt-6 lg:mb-0 mb-6">
-                        <a href="https://www.linkedin.com/in/othiagonascimento/" target="_blank">
-                          <button
-                            className="bg-white text-blueGray-800 shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                            type="button"
-                            href="https://google.com"
-                          >
-                            <i className="fab fa-linkedin text-2xl"></i>
-                          </button>
-                        </a>
-                        <a href="https://github.com/velosos" target="_blank">
-                          <button
-                            className="bg-white text-blueGray-800 shadow-lg font-normal h-12 w-12 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                            type="button"
-                          >
-                            <i className="fab fa-github text-2xl"></i>
-                          </button>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
               </div>
             </div>
           </div>
@@ -349,24 +306,18 @@ export default function Index() {
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center mb-5">
                 <span role="img" aria-label="cripto">
-                  <i className="text-blueGray  fa-coins text-4xl leading-lg mr-2" />{" "}
+                  <i className="text-blueGray  fas fa-users text-4xl leading-lg mr-2" />{" "}
                 </span>
               </p>
               <h3 className="font-semibold text-3xl">
-                Let's keep in touch!
+                Join Our Team
               </h3>
               <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Connect with us and learn more about our services.
-                Share your thoughts, ask questions, or offer your expertise.
-
+                Work with us, grow, and help drive a meaningful project forward. Send us your resume today
               </p>
-              <div className="sm:block flex flex-col mt-10">
-                <a
-                  className="sm:ml-1 text-orange-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                >
-                  <span>cryptocompliancesystem@gmail.com</span>
-                </a>
-              </div>
+              <p className="text-orange-500 font-bold leading-relaxed mt-4 mb-4">
+                cryptocompliancesystem@gmail.com
+              </p>
               <div className="text-center mt-16"></div>
             </div>
           </div>
