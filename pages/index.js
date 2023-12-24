@@ -155,7 +155,7 @@ export default function Index() {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
 
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
                     <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-white">
                       <i className="fas fa-users text-2xl"></i>
                     </div>
@@ -166,7 +166,7 @@ export default function Index() {
                   </div>
 
 
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8 mt-8">
                     <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-white">
                       <i className="fas fa-globe text-2xl"></i>
                     </div>
@@ -176,7 +176,7 @@ export default function Index() {
                   </div>
 
 
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8 mt-8">
                     <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-white">
                       <i className="fas fa-handshake text-xl"></i>
                     </div>
@@ -186,7 +186,7 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
                     <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-white">
                       <i className="fas fa-signal text-2xl"></i>
                     </div>
@@ -194,7 +194,7 @@ export default function Index() {
                       Real profitability
                     </p>
                   </div>
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8 mt-8">
                     <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-white">
                       <i className="fas fa-bullhorn text-xl"></i>
                     </div>
@@ -202,7 +202,7 @@ export default function Index() {
                       Complaints
                     </p>
                   </div>
-                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8 mt-8">
                     <div className="text-blueGray-500 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-white">
                       <i className="fas fa-money-bill text-xl"></i>
                     </div>
@@ -235,7 +235,7 @@ export default function Index() {
                     <img
                       alt="..."
                       className="align-middle border-none max-w-full h-auto rounded-lg"
-                      src="https://media.licdn.com/dms/image/C5603AQEEIMentZfnCw/profile-displayphoto-shrink_800_800/0/1559670749448?e=1701907200&v=beta&t=_NDzDQUsW_qGG7jFnhbJTes45pqm_XZ0Sys6gEzzVKo"
+                      src="https://media.licdn.com/dms/image/C5603AQEEIMentZfnCw/profile-displayphoto-shrink_200_200/0/1559670751239?e=2147483647&v=beta&t=dwo40ZXV0X8jljPHfVAPmdjGrsXXMEsZf6YMINH00xM"
                     />
                   </div>
                   <h5 className="text-white text-3xl font-semibold pb-4 text-center">
